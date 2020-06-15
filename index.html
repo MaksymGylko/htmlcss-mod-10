@@ -12,15 +12,31 @@
         <div class="container">
             <nav class="header__navigation">
                 <a href="#" class="header__navigation-logotype">MoGo</a>
-                <ul class="header__navigation-menu">
-                    <li class="header__navigation-menu-element"><a href="#" class="header__navigation-menu-link">about</a></li>
-                    <li class="header__navigation-menu-element"><a href="#" class="header__navigation-menu-link">service</a></li>
-                    <li class="header__navigation-menu-element"><a href="#" class="header__navigation-menu-link">work</a></li>
-                    <li class="header__navigation-menu-element"><a href="#" class="header__navigation-menu-link">blog</a></li>
-                    <li class="header__navigation-menu-element"><a href="#" class="header__navigation-menu-link">contact</a></li>
-                    <li class="header__navigation-menu-element"><a href="#" class="header__navigation-menu-link"><span class="header__navigation-menu-link-shoping clearfix"></span></a></li>
-                    <li class="header__navigation-menu-element"><a href="#" class="header__navigation-menu-link"><span class="search clearfix"></span></a></li>
-                </ul>
+                <div class="header__navigation-section">
+                    <ul class="header__navigation-menu">
+                        <li class="header__navigation-menu-element"><a href="#" class="header__navigation-menu-link">about</a></li>
+                        <li class="header__navigation-menu-element"><a href="#" class="header__navigation-menu-link">service</a></li>
+                        <li class="header__navigation-menu-element"><a href="#" class="header__navigation-menu-link">work</a></li>
+                        <li class="header__navigation-menu-element"><a href="#" class="header__navigation-menu-link">blog</a></li>
+                        <li class="header__navigation-menu-element"><a href="#" class="header__navigation-menu-link">contact</a></li>
+                    </ul>
+                    <ul class="header__navigation-service-list">
+                        <li class="header__navigation-service-element">
+                            <a href="#" class="header__navigation-service-link">
+                                <svg class="header__navigation-service">
+                                    <use href="./images/sprite.svg#SHOPPING-CART"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="header__navigation-service-element">
+                            <a href="#" class="header__navigation-service-link">
+                                <svg class="header__navigation-service">
+                                    <use href="./images/sprite.svg#MAGNIFYING-GLASS"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
             <div class="section">
                 <h2 class="header__title"><span class="header__title-highlighted-text">Creative Template</span>welcome to mogo</h2>
@@ -33,28 +49,46 @@
             <section class="services">
                 <h2 class="section__title clearfix"><span class="section__title-highlighted-text">We work with</span>Amazing Services</h2>
                 <ul class="services__list">
-                    <li class="services__list-element services__list-element-photography clearfix">
-                        <a href="" class="services__link">Photography</a>
+                    <li class="services__list-element">
+                        <svg class="services-icon">
+                            <use href="./images/sprite.svg#ALARM"></use>
+                        </svg>
+                        <a href="#" class="services__link">Photography</a>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                     </li>
-                    <li class="services__list-element services__list-element-WD clearfix">
-                        <a href="" class="services__link">Web Design</a>
+                    <li class="services__list-element">
+                        <svg class="services-icon">
+                            <use href="./images/sprite.svg#LINE-GRAPH"></use>
+                        </svg>
+                        <a href="#" class="services__link">Web Design</a>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                     </li>
-                    <li class="services__list-element services__list-element-creativity clearfix">
-                        <a href="" class="services__link">Creativity</a>
+                    <li class="services__list-element">
+                        <svg class="services-icon">
+                            <use href="./images/sprite.svg#COMPUTER"></use>
+                        </svg>
+                        <a href="#" class="services__link">Creativity</a>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                     </li>
-                    <li class="services__list-element services__list-element-seo clearfix">
-                        <a href="" class="services__link">seo</a>
+                    <li class="services__list-element">
+                        <svg class="services-icon">
+                            <use href="./images/sprite.svg#BOOK"></use>
+                        </svg>
+                        <a href="#" class="services__link">seo</a>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                     </li>
-                    <li class="services__list-element services__list-element-csshtml clearfix">
-                        <a href="" class="services__link">Css/Html</a>
+                    <li class="services__list-element">
+                        <svg class="services-icon">
+                            <use href="./images/sprite.svg#HOME"></use>
+                        </svg>
+                        <a href="#" class="services__link">Css/Html</a>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                     </li>
-                    <li class="services__list-element services__list-element-digital clearfix">
-                        <a href="" class="services__link">digital</a>
+                    <li class="services__list-element">
+                        <svg class="services-icon">
+                            <use href="./images/sprite.svg#IMAGE"></use>
+                        </svg>
+                        <a href="#" class="services__link">digital</a>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                     </li>
                 </ul>
@@ -65,7 +99,7 @@
                 <ul class="our-teammate__list">
                     <li class="our-teammate__card">
                         <div class="photoes-efects">
-                            <img srcset="./images/Matthew_Dix.jpg 380w, ./images/Matthew_dix@2x.jpg 760w" src="./images/Matthew_Dix.jpg" sizes="380px" height="470" alt="Matthew Dix Graphic Design" class="our-teammate__photo">
+                            <img srcset="./images/Matthew_Dix.jpg 380w, ./images/Matthew_Dix@2x.jpg 760w" src="./images/Matthew_Dix.jpg" sizes="380px" height="470" alt="Matthew Dix Graphic Design" class="our-teammate__photo">
                             <div class="overlay">
                                 <ul class="overlay__social-list">
                                     <li class="overlay__social-list_element">
@@ -197,7 +231,7 @@
         </div>
     </main>
     <footer>
-        <div class="container">
+        <div class="container footer clearfix">
             <section class="additional-information">
                 <div class="site-developer">
                     <h3 class="producer-information">&copy; 2016 MoGo free PSD template by<a href="#" class="producer-name">Laaqiq</a></h3>
